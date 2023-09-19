@@ -1,49 +1,43 @@
-#tieude {
-	color: red;
-	text-align: bold;
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
 }
 
-
-#header{
-	padding: 10px;
-	background: #9deeff;
-	text-align: center;
+p {
+    text-align: bold;
+    font-size: 60px;
+    margin-top: 10px;
 }
 
-#wrapper {
-	/*text-align: center;*/
-	max-width: 1200px;
-	border: solid;
-	margin: 0 auto;	
+h1 {
+    font-size: 70px;
+    color: red; 
+    /*padding-bottom: 10px;*/
+    margin: 0px;
 }
 
-#wp-content{
-	display: flex;
-	border: 1px solid; 	
-	padding:0 10px 0 10px;
-	min-height: 1000px;
-	margin: 10px;
+.equation {
+    font-size: 50px;
+    margin: 20px 0;
 }
 
-#content_self {
-	flex-basis: 20%;
-	padding: 10px;
+input[type="number"] {
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
 }
 
-#content_BK {
-	flex-basis: 60%;
-	padding: 10px;
+button {
+    font-size: 50px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-#sidebar {
-	flex-basis: 20%;
-	padding: 10px;
-}
-
-.tiktok {
-	padding-left: 20px;
-}
-
-.noidung {
-	text-align: justify;
+button:hover {
+    background-color: #0056b3;
 }
