@@ -1,0 +1,14 @@
+#wp-content2 {
+	border: solid;
+	margin: 10px;
+}
+
+#select_answer {
+	display: flex;
+
+}
+.answers {
+	flex-basis: 50%;
+	border: 10px solid;
+	background-color: red;
+}

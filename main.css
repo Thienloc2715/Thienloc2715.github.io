@@ -1,43 +1,54 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
+#tieude {
+	color: red;
+	text-align: bold;
 }
 
-p {
-    text-align: bold;
-    font-size: 60px;
-    margin-top: 10px;
+
+#header{
+	padding: 10px;
+	background: #9deeff;
+	text-align: center;
+	border: solid;
+	margin: 10px;
 }
 
-h1 {
-    font-size: 70px;
-    color: red; 
-    /*padding-bottom: 10px;*/
-    margin: 0px;
+#wrapper {
+	/*text-align: center;*/
+	max-width: 1200px;
+	border: solid;
+	margin: 0 auto;	
 }
 
-.equation {
-    font-size: 50px;
-    margin: 20px 0;
+#wp-content{
+	display: flex;
+	border: 2px solid; 	
+	padding:0 10px 0 10px;
+	min-height: 1000px;
+	margin: 10px;
 }
 
-input[type="number"] {
-    width: 200px;
-    font-size: 50px;
-    text-align: center;
+#content_self {
+	flex-basis: 20%;
+	padding: 10px;
 }
 
-button {
-    font-size: 50px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+#content_BK {
+	flex-basis: 60%;
+	padding: 10px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	margin: 10px 0 10px 0;
 }
 
-button:hover {
-    background-color: #0056b3;
+#sidebar {
+	flex-basis: 20%;
+	padding: 10px;
+}
+
+.tiktok {
+	padding-left: 20px;
+}
+
+.noidung {
+	text-align: justify;
 }
